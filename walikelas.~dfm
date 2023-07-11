@@ -300,7 +300,7 @@ object Form2: TForm2
     AutoEncodeStrings = False
     Connected = True
     HostName = 'localhost'
-    Port = 3307
+    Port = 3306
     Database = 'dbsekolah'
     User = 'root'
     Protocol = 'mysql'
