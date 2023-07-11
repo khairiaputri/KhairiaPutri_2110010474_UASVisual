@@ -4,7 +4,7 @@ object Form11: TForm11
   Width = 928
   Height = 480
   Caption = 'Home'
-  Color = clMoneyGreen
+  Color = clSilver
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -14,42 +14,42 @@ object Form11: TForm11
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
-  object lbl2: TLabel
-    Left = 408
-    Top = 240
-    Width = 125
-    Height = 18
-    Caption = 'HALAMAN WALI KELAS'
-    Font.Charset = OEM_CHARSET
-    Font.Color = clBlack
-    Font.Height = -16
-    Font.Name = 'Modern'
-    Font.Style = []
-    ParentFont = False
-  end
   object lbl1: TLabel
-    Left = 272
-    Top = 168
-    Width = 374
-    Height = 65
+    Left = 224
+    Top = 184
+    Width = 429
+    Height = 45
     Caption = 'SMP NUSA BANGSA'
     Font.Charset = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -35
-    Font.Name = 'National Cartoon'
+    Font.Name = 'Lucida Calligraphy'
     Font.Style = [fsBold]
     ParentFont = False
   end
+  object lbl2: TLabel
+    Left = 352
+    Top = 240
+    Width = 180
+    Height = 16
+    Caption = 'HALAMAN WALI KELAS'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -16
+    Font.Name = 'Lucida Console'
+    Font.Style = []
+    ParentFont = False
+  end
   object lbl3: TLabel
-    Left = 224
-    Top = 104
-    Width = 456
-    Height = 65
+    Left = 160
+    Top = 136
+    Width = 561
+    Height = 45
     Caption = 'SISTEM INFORMASI POIN'
     Font.Charset = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -35
-    Font.Name = 'National Cartoon'
+    Font.Name = 'Lucida Calligraphy'
     Font.Style = [fsBold]
     ParentFont = False
   end

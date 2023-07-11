@@ -4,7 +4,7 @@ object Form5: TForm5
   Width = 633
   Height = 579
   Caption = 'User'
-  Color = clAppWorkSpace
+  Color = clMoneyGreen
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11

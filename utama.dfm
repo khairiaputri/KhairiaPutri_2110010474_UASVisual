@@ -4,7 +4,7 @@ object Form1: TForm1
   Width = 413
   Height = 313
   Caption = 'Utama'
-  Color = clMedGray
+  Color = clMoneyGreen
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -16,28 +16,42 @@ object Form1: TForm1
   object lbl1: TLabel
     Left = 168
     Top = 64
-    Width = 54
+    Width = 60
     Height = 13
     Caption = 'USERNAME'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
   end
   object lbl2: TLabel
     Left = 168
     Top = 136
-    Width = 57
+    Width = 64
     Height = 13
     Caption = 'PASSWORD'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
   end
   object lbl3: TLabel
     Left = 152
     Top = 8
-    Width = 92
+    Width = 99
     Height = 34
     Caption = 'LOGIN'
+    Color = clGradientActiveCaption
     Font.Charset = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -29
-    Font.Name = 'Hack'
-    Font.Style = [fsBold]
+    Font.Name = 'Cooper Black'
+    Font.Style = []
+    ParentColor = False
     ParentFont = False
   end
   object edt1: TEdit
@@ -72,6 +86,12 @@ object Form1: TForm1
     Width = 75
     Height = 25
     Caption = 'LOGIN'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
     TabOrder = 2
     OnClick = btn1Click
   end

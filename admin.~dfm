@@ -1,10 +1,10 @@
-object Form11: TForm11
-  Left = 217
-  Top = 154
+object Form10: TForm10
+  Left = 219
+  Top = 153
   Width = 928
   Height = 480
-  Caption = 'Home'
-  Color = clMoneyGreen
+  Caption = 'Admin'
+  Color = clSilver
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -14,19 +14,6 @@ object Form11: TForm11
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
-  object lbl2: TLabel
-    Left = 408
-    Top = 240
-    Width = 125
-    Height = 18
-    Caption = 'HALAMAN WALI KELAS'
-    Font.Charset = OEM_CHARSET
-    Font.Color = clBlack
-    Font.Height = -16
-    Font.Name = 'Modern'
-    Font.Style = []
-    ParentFont = False
-  end
   object lbl1: TLabel
     Left = 272
     Top = 168
@@ -38,6 +25,19 @@ object Form11: TForm11
     Font.Height = -35
     Font.Name = 'National Cartoon'
     Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object lbl2: TLabel
+    Left = 416
+    Top = 240
+    Width = 93
+    Height = 18
+    Caption = 'HALAMAN ADMIN'
+    Font.Charset = OEM_CHARSET
+    Font.Color = clBlack
+    Font.Height = -16
+    Font.Name = 'Modern'
+    Font.Style = []
     ParentFont = False
   end
   object lbl3: TLabel
@@ -54,25 +54,41 @@ object Form11: TForm11
     ParentFont = False
   end
   object mm1: TMainMenu
-    Left = 40
-    Top = 24
-    object mniMENU1: TMenuItem
+    Left = 32
+    Top = 16
+    object mniWALIKELAS1: TMenuItem
       Caption = 'MENU'
+      object mniWALIKELAS2: TMenuItem
+        Caption = 'WALI KELAS'
+        OnClick = mniWALIKELAS2Click
+      end
       object mniSISWA1: TMenuItem
         Caption = 'SISWA'
         OnClick = mniSISWA1Click
       end
-      object mniSEMESTER1: TMenuItem
-        Caption = 'ORANG TUA'
-        OnClick = mniSEMESTER1Click
+      object mniKELAS1: TMenuItem
+        Caption = 'KELAS'
+        OnClick = mniKELAS1Click
       end
       object mniORANGTUA1: TMenuItem
-        Caption = 'HUBUNGAN'
+        Caption = 'ORANG TUA'
         OnClick = mniORANGTUA1Click
       end
-      object mniSEMESTER2: TMenuItem
+      object mniHUBUNGAN1: TMenuItem
+        Caption = 'HUBUNGAN'
+        OnClick = mniHUBUNGAN1Click
+      end
+      object mniSEMESTER1: TMenuItem
         Caption = 'SEMESTER'
-        OnClick = mniSEMESTER2Click
+        OnClick = mniSEMESTER1Click
+      end
+      object mniPOIN1: TMenuItem
+        Caption = 'POIN'
+        OnClick = mniPOIN1Click
+      end
+      object mniUSER1: TMenuItem
+        Caption = 'USER'
+        OnClick = mniUSER1Click
       end
       object mniN1: TMenuItem
         Caption = '-'

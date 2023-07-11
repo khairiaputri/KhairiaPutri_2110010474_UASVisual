@@ -4,7 +4,7 @@ object Form3: TForm3
   Width = 626
   Height = 480
   Caption = 'SISWA'
-  Color = clAppWorkSpace
+  Color = clMoneyGreen
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11

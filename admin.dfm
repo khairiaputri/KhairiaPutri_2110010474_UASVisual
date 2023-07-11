@@ -4,7 +4,7 @@ object Form10: TForm10
   Width = 928
   Height = 480
   Caption = 'Admin'
-  Color = clSilver
+  Color = clMoneyGreen
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -15,41 +15,41 @@ object Form10: TForm10
   PixelsPerInch = 96
   TextHeight = 13
   object lbl1: TLabel
-    Left = 224
-    Top = 184
-    Width = 429
-    Height = 45
+    Left = 272
+    Top = 168
+    Width = 374
+    Height = 65
     Caption = 'SMP NUSA BANGSA'
     Font.Charset = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -35
-    Font.Name = 'Lucida Calligraphy'
+    Font.Name = 'National Cartoon'
     Font.Style = [fsBold]
     ParentFont = False
   end
   object lbl2: TLabel
-    Left = 360
+    Left = 416
     Top = 240
-    Width = 130
-    Height = 16
+    Width = 93
+    Height = 18
     Caption = 'HALAMAN ADMIN'
-    Font.Charset = ANSI_CHARSET
+    Font.Charset = OEM_CHARSET
     Font.Color = clBlack
     Font.Height = -16
-    Font.Name = 'Lucida Console'
+    Font.Name = 'Modern'
     Font.Style = []
     ParentFont = False
   end
   object lbl3: TLabel
-    Left = 160
-    Top = 136
-    Width = 563
-    Height = 45
+    Left = 224
+    Top = 104
+    Width = 456
+    Height = 65
     Caption = 'SISTEM INFORMASI POIN'
     Font.Charset = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -35
-    Font.Name = 'Lucida Calligraphy'
+    Font.Name = 'National Cartoon'
     Font.Style = [fsBold]
     ParentFont = False
   end

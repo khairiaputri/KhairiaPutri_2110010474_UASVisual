@@ -4,7 +4,7 @@ object Form6: TForm6
   Width = 587
   Height = 578
   Caption = 'Poin'
-  Color = clAppWorkSpace
+  Color = clMoneyGreen
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
